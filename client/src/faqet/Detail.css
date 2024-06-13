@@ -1,0 +1,93 @@
+.detail-inline {
+  display: flex;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 180vh;
+  height:80vh;
+}
+
+.image-container img {
+  width: 80vh;
+  height: 80vh;
+  margin-top: -10px;
+  border: 1px solid white;
+}
+
+.data-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#dataName {
+  font-size: 2rem;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+#dataPrice {
+  font-size: 1rem;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+#dataDescription {
+  width: 300px;
+}
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-align: center;
+
+        }
+        
+        .image-container {
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          height: 120%;
+        }
+        
+        .backg-DetaileStore {
+          /* Ensure the element covers the entire container */
+          width: 120%;
+          height: 100%;
+          padding-bottom: 56.25%; /* Adjust this percentage to match the aspect ratio of your images (56.25% for 16:9 ratio) */
+          background-size: cover; /* Ensure the entire image is contained within the div */
+          background-position: center; /* Center the background image */
+          background-repeat: no-repeat; /* Prevent the background image from repeating */
+        }
+        

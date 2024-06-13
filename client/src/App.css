@@ -1,0 +1,151 @@
+.header-home{
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  width: 98%;
+  top:0;
+  
+  justify-content: space-between;
+  background-color: rgb(255, 253, 253);
+  padding: 20px;
+  color: rgb(8, 8, 8);
+  align-items: center;
+  font-size: 1.4rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#FASHION-TITLE{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 2.5rem;
+}
+.header-2 {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+#head {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+#SIGN-UP {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#SIGN-UP:hover {
+  background-color: rgb(43, 42, 42);
+  padding: 10px;
+  color: white;
+}
+
+
+#SHOP-BUTTON{
+ width: 150px;
+ text-align: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Anton", sans-serif;
+
+}
+
+
+#SHOP-BUTTON:hover{
+   background-color: rgb(48, 47, 47);
+}
+
+#style-text{
+  width: 150px;
+  text-align: center;
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+   flex-direction: column;
+   border-radius: 5px;
+   color: rgb(0, 0, 0);
+   font-size: 1.5rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ }
+ .brand-deals{
+  background-color: rgb(233, 233, 2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+ .contact{
+  color: rgb(155, 155, 155);
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#contact-fashion{
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+  
+}
+#contact-header{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+#contact-txt{
+  gap: 10px;
+  padding-top: 20px;
+}
+#contact-txt:hover{
+  color:white;
+  cursor: pointer;
+}
+.email-promo{
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+.email-promo #email-promo-bold{
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+
+
+.email-promo-email-container{
+  display: flex;
+  width: 100%;
+  height: 40px;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.email-promo-email-container input {
+  height: 25px;
+  width: 40%;
+  padding: 10px;
+  font-size: 1.1rem;
+  
+}
+
+#email-promo-buton {
+  width: 10%;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgb(0, 0, 0);
+}

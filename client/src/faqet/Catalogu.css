@@ -1,0 +1,220 @@
+/* Header.css */
+
+/* Styles for the header */
+.bg-black {
+  background-color: #000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  position: relative;
+}
+
+.header .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.header .logo {
+  flex-shrink: 0;
+}
+
+.header .navigation {
+  display: none;
+}
+
+.header .navigation a {
+  color: #4a5568;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.header .navigation a:hover {
+  color: #2d3748;
+}
+
+.header .icons {
+  display: flex;
+  align-items: center;
+}
+
+.header .icons a {
+  color: #cbd5e0;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.header .icons a:hover {
+  color: #718096;
+}
+
+/* Mobile menu styles */
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu.active {
+  display: block;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  z-index: 10;
+}
+
+.mobile-menu .close-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.typi{
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr)); /* Default to single column */
+  gap: 1.5rem; /* Adjust the gap between grid items */
+}
+
+/* Responsive grid layout */
+@media (min-width: 640px) {
+  .grid-container.sm\:grid-cols-2 > div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-container.md\:grid-cols-3 > div {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-container.lg\:grid-cols-4 > div {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Styles for individual grid items */
+.grid-item {
+  position: relative;
+  background-color: #1a1922; 
+  border-radius: 0.375rem; 
+}
+
+/* Image styles */
+.grid-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem 0.375rem 0 0; /* Rounded corners for the top of the image */
+}
+
+/* Styles for the text content */
+.text-content {
+  padding: 1rem; /* Adjust padding as needed */
+
+}
+
+/* Product name styles */
+.product-name {
+  font-size: 0.875rem; /* Adjust font size as needed */
+  font-weight: 600; /* Adjust font weight as needed */
+  color: #ffffff; /* Adjust text color as needed */
+  text-decoration: none;
+}
+
+/* Price styles */
+.price {
+  font-size: 0.875rem; /* Adjust font size as needed */
+  font-weight: 600; /* Adjust font weight as needed */
+  color: #ffffff; /* Adjust text color as needed */
+}
+
+/* Color styles */
+.color {
+  font-size: 0.75rem; /* Adjust font size as needed */
+  color: #666; /* Adjust text color as needed */
+}
+.add-toCard {
+text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(144, 202, 249);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+.add-toCard:hover{
+  background-color: rgb(101, 179, 243);
+}
+
+.buyButton {
+  text-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 1px solid rgba(144, 202, 249, 0.5);
+  color: rgb(144, 202, 249);
+  margin-bottom: 10px;
+
+}
+.buyButton:hover{
+  background-color: rgb(51, 50, 50);
+}
