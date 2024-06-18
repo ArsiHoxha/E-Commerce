@@ -26,7 +26,7 @@ const Admin = require("./Admin");
 
 mongoose
   .connect(
-    "mongodb+srv://arsihoxha23:Arsi159753@cluster0.60zdjwh.mongodb.net/",
+    "Your Mongodb code"
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
